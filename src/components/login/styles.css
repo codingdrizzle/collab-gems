@@ -1,0 +1,96 @@
+.login-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 40%;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 1px 1px 20px rgb(226, 226, 226);
+    position: relative;
+    left: 30%;
+    top: 30px;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header img {
+    width: 100%;
+    height: auto;
+}
+
+.first-group h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 30px;
+    color: #00115B;
+    position: relative;
+    top: -8vh;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px #ccc;
+    width: 50%;
+    padding: 30px;
+    border-radius: 0px 75px 75px 0px;
+    gap: 20px;
+
+}
+
+.login-text-box,
+.login-text-box:hover,
+.login-text-box:focus {
+    border: none !important;
+    outline: hidden !important;
+}
+
+/*
+.login-text-box:ho{
+
+}*/
+
+.login-btn {
+    background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 63.5%;
+    left: 66%;
+    z-index: 999;
+}
+
+.card-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.forgot-password {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #24E9A3;
+    text-decoration: none;
+}
