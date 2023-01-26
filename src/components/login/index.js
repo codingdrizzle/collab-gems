@@ -13,13 +13,7 @@ const LoginForm = () => {
     const { Title, Text } = Typography;
 
     const navigate = useNavigate()
-
-    const messageConfig ={
-        message: "Login Successful",
-        duration: 3000,
-        onClose: navigate('/')
-    }
-
+    
     return (
         <div className="login-card">
             <div className="card-header">
