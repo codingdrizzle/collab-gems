@@ -12,6 +12,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    justify-self: auto;
+    margin-top: 5%;
+}
+
+.first-group h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 30px;
+    color: #00115B;
 }
 
 #username{
