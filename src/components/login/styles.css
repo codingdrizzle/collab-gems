@@ -45,9 +45,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    flex: 0.5;
 }
 
 #username{
-    width: 100%;
+    width: 30vw;
+    height: 9vh;
+    padding: 8px 12px;
+    background-color: transparent !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 162.52%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.biuser{
+    position: relative;
+    left: 15%;
 }
