@@ -23,7 +23,10 @@ const LoginPage = ()=>{
                       <input required type="password" placeholder='Password'/>
                 </div>
             </div>
-
+            <div className="third-group">
+                 <a href="">Forget Password?</a>
+                 <h3>Don&apos;t have an account?<a href=""> Register</a></h3>
+            </div>
           
         </div>
     )
