@@ -5,12 +5,12 @@ import { BiUser } from "react-icons/bi";
 import { RiLock2Line } from "react-icons/ri";
 import { BiLogIn } from "react-icons/bi";
 import "./styles.css"
-import { Input, Typography, message } from "antd";
+import { Input, Typography } from "antd";
 
 
 const LoginForm = () => {
 
-    const { Title, Text } = Typography;
+    const { Title } = Typography;
 
 
     return (
