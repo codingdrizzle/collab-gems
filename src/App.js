@@ -1,14 +1,13 @@
-
-import './App.css';
-import {} from 'antd';
-import Login from './components/login';
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './routes'
+import 'antd/dist/reset.css';
 
 function App() {
-  return (
-    <div className="App">
-           <Login/>    
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <AppRoutes />
+        </BrowserRouter>
+    );
 }
 
 export default App;

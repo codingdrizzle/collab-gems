@@ -1,37 +1,33 @@
-.login-container{
+.login-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    gap: 10px;
     width: 40%;
-    height: 90vh;
-    background: #f0eaea;
-    box-shadow: 0px 19px 200px  rgba(235, 229, 229, 0.09);
+    height: auto;
+    background: #ffffff;
+    box-shadow: 1px 1px 20px rgb(226, 226, 226);
     position: relative;
     left: 30%;
-    top:30px;
+    top: 30px;
     border-radius: 20px;
+    padding: 3%;
 }
 
-.first-group{
+.card-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    justify-self: auto;
-    margin-top: 10%;
-    flex: 0.3;
-
+    justify-content: center;
 }
 
-.gems{
-    border: 1px solid transparent ;
-    border-radius: 100%;
-    position: relative;
-    top: -5vh;
+.card-header img {
+    width: 100%;
+    height: auto;
 }
 
-.first-group h2{
+.first-group h2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -42,118 +38,59 @@
     top: -8vh;
 }
 
-
-
-.second-group{
+.card-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 56%;
+    height: auto;
     background: #FFFFFF;
-    opacity: 0.8;
-    box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
+    box-shadow: 1px 1px 10px #ccc;
+    width: 50%;
+    padding: 30px;
     border-radius: 0px 75px 75px 0px;
-    position: relative;
-    top: -3vh;
+    gap: 20px;
+
 }
 
-.card1{
+.login-text-box,
+.login-text-box:hover,
+.login-text-box:focus {
+    border: none !important;
+    outline: hidden !important;
+}
+
+/*
+.login-text-box:ho{
+
+}*/
+
+.login-btn {
+    background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex: 0.5;
-    position: relative;
-    right: 10%;
-    
-}
-
-#username{
-    width: 30vw;
-    height: 10vh;
-    padding: 8px 12px;
-    background-color: transparent !important;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 162.52%;
-    text-align: center;
-    color: #363232;
-    background: #FFFFFF;
-}
-
-.biuser{
-    position: relative;
-    left: 15%;
-
-}
-
-.login-link{
-    position: relative;
-    left: 43%;
-    top: -4vh;
-    color: #021150;  
-}
-
-.card2{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex: 0.5;
-    position: relative;
-    right: 10%;
+    position: absolute;
+    top: 63.5%;
+    left: 66%;
+    z-index: 999;
 }
 
-#password{
-    width: 30vw;
-    height: 10vh;
-    padding: 8px 12px;
-    background-color: transparent !important;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 162.52%;
-    text-align: center;
-    color: #363333;
-    margin-top: -10%;
-    background: #FFFFFF;
-    position: relative;
-    top: -2.5vh;
-}
-
-.lock{
-    position: relative;
-    margin-top: -18%;
-    left: 15%;
-}
-
-
-.third-group{
+.card-links{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
-    justify-content: center;
 }
 
-.forget{
-    font-family: 'Inter';
-    font-style: normal;
+.forgot-password {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 18px;
+    font-size: 17px;
+    line-height: 20px;
     color: #24E9A3;
-    align-items: flex-start;
-    
-}
-
-.third-group h3{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 18px;
-}
-
-.third-group h3 a{
-    font-weight: 600;
+    text-decoration: none;
 }
