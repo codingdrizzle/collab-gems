@@ -31,7 +31,7 @@ const LoginPage = ()=>{
                 </div>
             </div>
             <div className="third-group">
-                 <a href="">Forget Password?</a>
+                 <a className="forget" href="">Forget Password?</a>
                  <h3>Don&apos;t have an account?<a href=""> Register</a></h3>
             </div>
             </Form>
