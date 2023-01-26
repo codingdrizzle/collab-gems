@@ -127,3 +127,15 @@
     line-height: 18px;
     color: #24E9A3;
 }
+
+.third-group h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+}
+
+.third-group h3 a{
+    font-weight: 600;
+}
