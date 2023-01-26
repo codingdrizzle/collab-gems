@@ -12,6 +12,16 @@ const LoginPage = ()=>{
                     <img src={gems} alt=""/>
                     <h2>Login</h2>
             </div>
+            <div className="second-group">
+                <div className="card1">
+                      <BiUser size={40}/>
+                      <input required type="text" placeholder='Username'/>
+                      <SlArrowRightCircle size={60}/>
+                </div>
+                <div className="card2">
+                      <input required type="password" placeholder='Password'/>
+                </div>
+            </div>
 
           
         </div>
