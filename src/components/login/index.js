@@ -12,8 +12,7 @@ const LoginForm = () => {
 
     const { Title, Text } = Typography;
 
-    const navigate = useNavigate()
-    
+
     return (
         <div className="login-card">
             <div className="card-header">
