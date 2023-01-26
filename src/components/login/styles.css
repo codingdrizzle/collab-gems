@@ -116,5 +116,14 @@
     align-items: flex-start;
     justify-content: center;
     margin-left: 9%;
+    margin-top: 2%;
 }
 
+.forget{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+    color: #24E9A3;
+}
