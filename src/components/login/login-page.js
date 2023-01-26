@@ -19,6 +19,7 @@ const LoginPage = ()=>{
                       <SlArrowRightCircle size={60}/>
                 </div>
                 <div className="card2">
+                      <RiLock2Line size={40}/>
                       <input required type="password" placeholder='Password'/>
                 </div>
             </div>
