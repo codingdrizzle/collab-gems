@@ -3,9 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    width: 100%;
-    height: fit-content;
-
+    width: 40%;
+    height: 90vh;
+    background: #f0eaea;
+    box-shadow: 0px 19px 200px  rgba(235, 229, 229, 0.09);
+    position: relative;
+    left: 30%;
+    top:30px;
+    border-radius: 20px;
 }
 
 .first-group{
@@ -14,14 +19,16 @@
     align-items: center;
     justify-content: flex-end;
     justify-self: auto;
-    margin-top: 3%;
+    margin-top: 10%;
     flex: 0.3;
+
 }
 
 .gems{
     border: 1px solid transparent ;
     border-radius: 100%;
-    margin-bottom: 4%;
+    position: relative;
+    top: -5vh;
 }
 
 .first-group h2{
@@ -31,7 +38,8 @@
     font-size: 35px;
     line-height: 30px;
     color: #00115B;
-    margin-top: -1px;
+    position: relative;
+    top: -8vh;
 }
 
 
@@ -41,11 +49,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    height: 56%;
     background: #FFFFFF;
     opacity: 0.8;
     box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
     border-radius: 0px 75px 75px 0px;
-    margin-top: 10%;
+    position: relative;
+    top: -3vh;
 }
 
 .card1{
@@ -53,33 +63,36 @@
     align-items: center;
     justify-content: center;
     flex: 0.5;
+    position: relative;
+    right: 10%;
+    
 }
 
 #username{
     width: 30vw;
-    height: 9vh;
+    height: 10vh;
     padding: 8px 12px;
     background-color: transparent !important;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 162.52%;
     text-align: center;
-    color: #726c6c;
+    color: #363232;
+    background: #FFFFFF;
 }
 
 .biuser{
     position: relative;
     left: 15%;
+
 }
 
 .login-link{
     position: relative;
-    left: 54%;
-    top: -3vh;
-    color: #021150;
-    border-radius: 100%;
-  
+    left: 43%;
+    top: -4vh;
+    color: #021150;  
 }
 
 .card2{
@@ -87,25 +100,30 @@
     align-items: center;
     justify-content: center;
     flex: 0.5;
+    position: relative;
+    right: 10%;
 }
 
 #password{
     width: 30vw;
-    height: 9vh;
+    height: 10vh;
     padding: 8px 12px;
     background-color: transparent !important;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 162.52%;
     text-align: center;
-    color: #575050;
+    color: #363333;
     margin-top: -10%;
+    background: #FFFFFF;
+    position: relative;
+    top: -2.5vh;
 }
 
 .lock{
     position: relative;
-    margin-top: -10%;
+    margin-top: -18%;
     left: 15%;
 }
 
@@ -115,17 +133,17 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 9%;
-    margin-top: 2%;
 }
 
 .forget{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 18px;
     color: #24E9A3;
+    align-items: flex-start;
+    
 }
 
 .third-group h3{
