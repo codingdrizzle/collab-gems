@@ -65,3 +65,13 @@
     position: relative;
     left: 15%;
 }
+
+.login-link{
+    position: relative;
+    left: 56%;
+    top: -3vh;
+    color: #00115B;
+    border-radius: 100%;
+  
+}
+
