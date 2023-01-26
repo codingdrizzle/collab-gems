@@ -22,9 +22,9 @@ const LoginPage = ()=>{
             <div className="second-group">
                 <div className="card1">
                       <BiUser className="biuser" size={40}/>
-                      <Input id="username" required type="text" placeholder='Username'/> <a href=""><SlArrowRightCircle size={60}/></a>
-                      
+                      <Input id="username" required type="text" placeholder='Username'/>                     
                 </div>
+                    <a className="login-link" href=""><SlArrowRightCircle size={60}/></a>
                 <div className="card2">
                       <RiLock2Line className="lock" size={40}/>
                       <Input id="password" required type="password" placeholder='Password'/>
