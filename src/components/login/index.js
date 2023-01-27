@@ -8,6 +8,7 @@ import "./styles.css"
 import { Input, Typography } from "antd";
 
 
+
 const LoginForm = () => {
 
     const { Title } = Typography;
@@ -17,7 +18,7 @@ const LoginForm = () => {
         <div className="login-card">
             <div className="card-header">
                 <img src={gems} alt="company-logo" />
-                <Title>Login</Title>
+                <Title className="Title">Login</Title>
             </div>
             <div className="card-form">
                 <Input className="login-text-box" required type="text" placeholder='Username' size="large" prefix={<BiUser size={25} />} />
