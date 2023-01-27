@@ -113,6 +113,20 @@
         padding: 3%;
     }
 
+    .card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -15vh;
+    }
+    
+    .card-header img {
+        width: 50%;
+        height: auto;
+    }
+    
 
     
 }
