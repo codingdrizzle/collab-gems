@@ -18,7 +18,7 @@ const LoginForm = () => {
         <div className="login-card">
             <div className="card-header">
                 <img src={gems} alt="company-logo" />
-                <Title className="Title">Login</Title>
+                <Title className="Title" color="#00115B">Login</Title>
             </div>
             <div className="card-form">
                 <Input className="login-text-box" required type="text" placeholder='Username' size="large" prefix={<BiUser size={25} />} />
