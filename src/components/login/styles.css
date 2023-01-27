@@ -237,6 +237,16 @@
         z-index: 999;
     }
 
+    .card-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        right: 10%;
+        gap: 10px;
+    }
+    
 
 }
 
