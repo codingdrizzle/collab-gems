@@ -42,10 +42,8 @@
     justify-content: flex-start;
     height: auto;
     background: #FFFFFF;
-    box-shadow: 1px 1px 10px #ccc;
     width: 50%;
     padding: 30px;
-    border-radius: 0px 75px 75px 0px;
     gap: 20px;
 
 }
@@ -118,7 +116,7 @@
     }
     
     .card-header img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
     
@@ -140,10 +138,8 @@
         justify-content: flex-start;
         height: auto;
         background: #ffffff;
-        box-shadow: 1px 1px 10px #ccc;
-        width: 100%;
+        width: 150%;
         padding: 20px;
-        border-radius: 0px 75px 75px 0px;
         gap: 10px;
         position:relative;
         top: -7vh;
