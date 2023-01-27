@@ -127,6 +127,17 @@
         height: auto;
     }
     
+    .card-header .Title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 30px;
+        color: #00115B;
+        position: relative;
+        top: 3vh;
+    }
+
 
     
 }
