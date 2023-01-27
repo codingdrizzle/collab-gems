@@ -32,8 +32,8 @@ const LoginForm = () => {
                     Forgot Password?
                 </Link>
                 <h3>Don&apos;t have an account?<Link to={'/register'}>Register</Link></h3>
-            </div>
 
+            </div>
 
         </div>
     )

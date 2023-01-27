@@ -1,5 +1,4 @@
 .login-card {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
@@ -10,7 +9,7 @@
     box-shadow: 1px 1px 20px rgb(226, 226, 226);
     position: relative;
     left: 30%;
-    top: 30px;
+    top: -20vh;
     border-radius: 20px;
     padding: 3%;
 }
@@ -202,9 +201,10 @@
         box-shadow: 1px 1px 20px rgb(226, 226, 226);
         position: relative;
         left: 30%;
-        top: 20vh;
+        top: 10vh;
         border-radius: 20px;
         padding: 3%;
+        
     }
 
     .card-form {
@@ -213,13 +213,30 @@
         align-items: center;
         justify-content: flex-start;
         height: auto;
-        background: #FFFFFF;
+        background: #ffffff;
         box-shadow: 1px 1px 10px #ccc;
-        width: 50%;
+        width: 80%;
         padding: 30px;
         border-radius: 0px 75px 75px 0px;
         gap: 20px;
     
     }
+
+    .login-btn {
+        background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
+        box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 62%;
+        left: 75%;
+        z-index: 999;
+    }
+
+
 }
 
