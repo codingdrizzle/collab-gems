@@ -90,7 +90,7 @@
     text-decoration: none;
 }
 
-@media (max-width:700px) {
+@media (max-width:1000px) {
     .login-card {
         display: flex;
         flex-direction: column;
@@ -136,7 +136,8 @@
         align-items: center;
         justify-content: flex-start;
         height: auto;
-        background: #d66060;
+        background:#FFFFFF;
+        border-radius: 0px 75px 75px 0px;
         width:80%;
         padding: 20px;
         gap: 10px;
@@ -178,11 +179,19 @@
         line-height: 20px;
         color: #24E9A3;
         text-decoration: none;
+        
     }
-            
+    
+    .register{
+        color:#24E9A3;
+    }
 }
 
-@media (min-width:800px){
+
+
+/* Desktop view */
+
+@media (min-width:1100px){
     .login-card {
         display: flex;
         flex-direction: column;
@@ -236,7 +245,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;        
-        gap: 10px;
+        gap: 20px;
+        padding-right: 17%;
     }
     
     .forgot-password {

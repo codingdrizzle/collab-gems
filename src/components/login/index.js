@@ -31,7 +31,7 @@ const LoginForm = () => {
                 <Link to={'recover-passord'} className='forgot-password'>
                     Forgot Password?
                 </Link>
-                <h3>Don&apos;t have an account?<Link to={'/register'} color="#24E9A3">Register</Link></h3>
+                <h3>Don&apos;t have an account?      <Link className="register" to={'/register'}>Register</Link></h3>
 
             </div>
 
