@@ -247,6 +247,13 @@
         gap: 10px;
     }
     
-
+    .forgot-password {
+        font-weight: 400;
+        font-size: 17px;
+        font-style: oblique;
+        line-height: 20px;
+        color: #24E9A3;
+        text-decoration: none;
+    }
 }
 
