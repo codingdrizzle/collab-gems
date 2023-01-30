@@ -7,31 +7,28 @@ import { BiLogIn } from "react-icons/bi";
 import "./styles.css"
 import { Input, Typography } from "antd";
 
-
-
 const LoginForm = () => {
 
     const { Title } = Typography;
 
-
     return (
-        <div className="login-card">
-            <div className="card-header">
-                <img src={gems} alt="company-logo" />
-                <Title className="Title" color="#00115B">Login</Title>
+        <div className="login-card">;
+            <div className="card-header">;
+                <img src={gems} alt="company-logo" />;
+                <Title level={3} className="title">Login</Title>;
             </div>
-            <div className="card-form">
-                <Input className="login-text-box" required type="text" placeholder='Username' size="large" prefix={<BiUser size={25} />} />
-                <Link to={'/'} className={'login-btn'}>
-                    <BiLogIn size={50} color={'#fff'} />
-                </Link>
-                <Input className="login-text-box" required type="password" placeholder='Password' size="large" prefix={<RiLock2Line size={25} />} />
-            </div>
-            <div className="card-links">
-                <Link to={'recover-passord'} className='forgot-password'>
+            <div className="card-form">;
+                <Input className="login-text-box1" required type="text" placeholder='Username' size="medium" prefix={<BiUser color="" size={25} />} />;
+                <Link to={'/'} className={'login-btn'}>;
+                    <BiLogIn size={50} color={'#fff'} />;
+                </Link>;
+                <Input className="login-text-box2" required type="password" placeholder='Password' size="medium" prefix={<RiLock2Line size={25} />} />;
+            </div>;
+            <div className="card-links">;
+                <Link to={'recover-passord'} className='forgot-password'>;
                     Forgot Password?
                 </Link>
-                <h3>Don&apos;t have an account?      <Link className="register" to={'/register'}>Register</Link></h3>
+                <Title level={3}>Don&apos;t have an account?      <Link className="register" to={'/register'}>Register</Link></Title>
 
             </div>
 
@@ -40,3 +37,4 @@ const LoginForm = () => {
 }
 
 export default LoginForm;
+

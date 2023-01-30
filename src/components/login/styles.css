@@ -48,17 +48,19 @@
 
 }
 
-.login-text-box,
-.login-text-box:hover,
-.login-text-box:focus {
+.login-text-box1,
+.login-text-box1:hover,
+.login-text-box1:focus {
     border: none !important;
     outline: hidden !important;
 }
 
-/*
-.login-text-box:ho{
-
-}*/
+.login-text-box2,
+.login-text-box2:hover,
+.login-text-box2:focus {
+    border: none !important;
+    outline: hidden !important;
+}
 
 .login-btn {
     background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
@@ -90,20 +92,20 @@
     text-decoration: none;
 }
 
-@media (max-width:1000px) {
+@media (max-width:330px) {
     .login-card {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        gap: 10px;
         width: 100%;
-        height: 80vh;
+        height: auto;
         background: #ffffff;
         position: relative;
         left:0%;
         top: 60px;
-        padding: 3%;
+        padding: 1%;
+        overflow: hidden;
     }
 
     .card-header {
@@ -112,22 +114,22 @@
         align-items: center;
         justify-content: center;
         position: relative;
+        margin-top: -20%;
     }
     
     .card-header img {
-        width: 100%;
+        width: 40%;
         height: auto;
     }
     
-    .card-header .Title {
+    .card-header .title {
         font-family: 'Times New Roman', Times, serif;
         font-style: normal;
         font-weight:900;
-        font-size: 35px;
         line-height: 30px;
         color: #00115B;
         position: relative;
-        top: 3vh;
+        top: -2vh;
     }
 
     .card-form {
@@ -135,14 +137,22 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: auto;
-        background:#FFFFFF;
+        height: 30vh;
+        background:#ce0808;
         border-radius: 0px 75px 75px 0px;
         width:80%;
-        padding: 20px;
-        gap: 10px;
+        padding-top: 0.5vh;
+        gap: 0px;
         position:relative;
-        top: 5vh;
+        top: -6vh;
+    }
+
+    .login-text-box1{
+       margin-top: 4%;
+    }
+
+    .login-text-box2{
+        margin-top: -8%;
     }
 
     .login-btn {
@@ -178,8 +188,7 @@
         font-style: normal;
         line-height: 20px;
         color: #24E9A3;
-        text-decoration: none;
-        
+        text-decoration: none;   
     }
     
     .register{
@@ -206,8 +215,7 @@
         left: 30%;
         top: 5vh;
         border-radius: 20px;
-        padding: 3%;
-        
+        padding: 3%;    
     }
 
     .card-form {
