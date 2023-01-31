@@ -24,11 +24,11 @@ const LoginForm = () => {
                 </Link>;
                 <Input className="login-text-box2" required type="password" placeholder='Password' size="medium" prefix={<RiLock2Line size={25} />} />;
             </div>;
-            <div className="card-links">;
-                <Link to={'recover-passord'} className='forgot-password'>;
+            <div className="card-links">
+                <Link to={'recover-passord'} className='forgot-password'>
                     Forgot Password?
                 </Link>
-                <Title level={3}>Don&apos;t have an account?      <Link className="register" to={'/register'}>Register</Link></Title>
+                <Title level={5}>Don&apos;t have an account?      <Link className="register" to={'/register'}>Register</Link></Title>
 
             </div>
 
