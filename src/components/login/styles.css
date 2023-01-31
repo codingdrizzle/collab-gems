@@ -100,7 +100,7 @@
         justify-content: flex-start;
         width: 100%;
         height: auto;
-        background: #d89898;
+        background: #ffffff;
         position: relative;
         left:0%;
         top: 0px;
@@ -114,11 +114,11 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: -5%;
+        top: 3vh;
     }
     
     .card-header img {
-        width: 40%;
+        width: 50%;
         height: auto;
     }
     
@@ -144,7 +144,7 @@
         padding-top: 0.5vh;
         gap: 0px;
         position:relative;
-        top: -6vh;
+        top: 0vh;
     }
 
     .login-text-box1{
@@ -177,7 +177,7 @@
         align-items: flex-start;
         position: relative;
         width: 100%;
-        top: -10vh;
+        top: 0vh;
         left: 10%;
         gap: 0px;
     }
