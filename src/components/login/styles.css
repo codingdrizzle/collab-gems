@@ -229,13 +229,7 @@
     }
 
     .card-form{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
             height: 20vh;
-            background:#ffffff;
-            border-radius: 0px 75px 75px 0px;
             width:80%;
             padding-top: 0.5vh;
             gap: 0px;
