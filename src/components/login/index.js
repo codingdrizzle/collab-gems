@@ -18,11 +18,11 @@ const LoginForm = () => {
                 <Title level={1} className="title">Login</Title>;
             </div>;
             <div className="card-form">
-                <Input className="login-text-box1" required type="text" placeholder='Username' size="medium" prefix={<BiUser size={25} />} />;
+                <Input className="login-text-box1" required type="text" placeholder='Username' size="medium" prefix={<BiUser className="biuser" size={25} />} />;
                 <Link to={'/'} className={'login-btn'}>
                     <BiLogIn size={50} color={'#fff'} />;
                 </Link>
-                <Input className="login-text-box2" required type="password" placeholder='Password' size="medium" prefix={<RiLock2Line size={25} />} />;
+                <Input className="login-text-box2" required type="password" placeholder='Password' size="medium" prefix={<RiLock2Line className="lock" size={25} />} />;
             </div>;
             <div className="card-links">
                 <Link to={'recover-passord'} className='forgot-password'>

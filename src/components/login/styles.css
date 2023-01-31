@@ -48,6 +48,11 @@
 
 }
 
+.biuser,
+.lock{
+    color:darkgray;
+}
+
 .login-text-box1,
 .login-text-box1:hover,
 .login-text-box1:focus {
