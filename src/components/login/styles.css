@@ -100,10 +100,10 @@
         justify-content: flex-start;
         width: 100%;
         height: auto;
-        background: #ffffff;
+        background: #d89898;
         position: relative;
         left:0%;
-        top: 60px;
+        top: 0px;
         padding: 1%;
         overflow: hidden;
     }
@@ -138,21 +138,21 @@
         align-items: center;
         justify-content: flex-start;
         height: 30vh;
-        background:red;
+        background:#ffffff;
         border-radius: 0px 75px 75px 0px;
         width:80%;
         padding-top: 0.5vh;
         gap: 0px;
         position:relative;
-        top: 0vh;
+        top: -6vh;
     }
 
     .login-text-box1{
-       margin-top: 4%;
+       margin-top: 15.5%;
     }
 
     .login-text-box2{
-        margin-top: -8%;
+        margin-top: -6%;
     }
 
     .login-btn {
@@ -177,9 +177,9 @@
         align-items: flex-start;
         position: relative;
         width: 100%;
-        top: 0vh;
+        top: -10vh;
         left: 10%;
-        gap: 20px;
+        gap: 0px;
     }
 
     .forgot-password {
@@ -191,7 +191,7 @@
         text-decoration: none;   
     }
     
-    .register{
+    #register{
         color:#24E9A3;
     }
 }
