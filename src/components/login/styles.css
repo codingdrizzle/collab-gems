@@ -196,7 +196,110 @@
     }
 }
 
+/* Max-width of 400px */
+@media (max-width:330px) {
+    .login-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        background: #ffffff;
+        position: relative;
+        left:0%;
+        top: 0px;
+        padding: 1%;
+        overflow: hidden;
+    }
 
+    .card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 3vh;
+    }
+    
+    .card-header img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .card-header .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight:900;
+        line-height: 30px;
+        color: #00115B;
+        position: relative;
+        top: 0vh;
+    }
+
+    .card-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 30vh;
+        background:#ffffff;
+        border-radius: 0px 75px 75px 0px;
+        width:80%;
+        padding-top: 0.5vh;
+        gap: 0px;
+        position:relative;
+        top: 0vh;
+    }
+
+    .login-text-box1{
+       margin-top: 15.5%;
+    }
+
+    .login-text-box2{
+        margin-top: -6%;
+    }
+
+    .login-btn {
+        background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
+        box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.1);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 32%;
+        left: 82%;
+        z-index: 999;
+    }
+
+    .card-links{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+        position: relative;
+        width: 100%;
+        top: 0vh;
+        left: 10%;
+        gap: 0px;
+    }
+
+    .forgot-password {
+        font-weight: 400;
+        font-size: 17px;
+        font-style: normal;
+        line-height: 10px;
+        color: #24E9A3;
+        text-decoration: none;   
+    }
+    
+    #register{
+        color:#24E9A3;
+    }
+}
 
 /* Desktop view */
 
