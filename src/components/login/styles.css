@@ -340,6 +340,20 @@
     }
 }
 
+/* min-width of 800px */
+@media (min-width:800px){
+    .card-header img{
+        width: 250px;
+    }
+
+    .title{
+        margin-top: 5vh;
+    }
+    .login-btn{
+       top: 60px;
+    }
+}
+
 
 /* Desktop view */
 
