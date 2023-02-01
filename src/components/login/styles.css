@@ -354,6 +354,13 @@
     }
 }
 
+/* min-width of 850px */
+@media (min-width:850px){
+    .login-btn{
+        top: 55px;
+     }
+}
+
 
 /* Desktop view */
 
