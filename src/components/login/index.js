@@ -28,7 +28,7 @@ const LoginForm = () => {
                 <Link to={'recover-passord'} className='forgot-password'>
                     Forgot Password?
                 </Link>;
-                <Title level={5}>Don&apos;t have an account?      <Link id="register" to={'/register'}>Register</Link></Title>;
+                <Title className="register" level={5}>Don&apos;t have an account?      <Link id="register" to={'/register'}>Register</Link></Title>;
 
             </div>
 
