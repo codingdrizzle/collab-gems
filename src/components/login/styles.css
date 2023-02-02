@@ -374,6 +374,7 @@
              left: 27%;
              top: 3vh;
              box-shadow: 1px 1px 20px rgb(226, 226, 226);
+             overflow: hidden;
          }
 
          .card-header{
