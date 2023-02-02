@@ -364,39 +364,63 @@
 
 /* Desktop view */
 
-@media (min-width:1100px){
-    .login-card{
-        width: 50%;
-        height:auto;
-        background-color: #ffffff;
+
+ @media (min-width:1100px){
+         .login-card{
+             width: 50%;
+             height:auto;
+             background-color: #ffffff;
+             position: relative;
+             left: 27%;
+             top: 3vh;
+             box-shadow: 1px 1px 20px rgb(226, 226, 226);
+         }
+
+         .card-header{
+            position: relative;
+            top: -5vh;
+         }
+    
+         .card-header img {
+             width: 100%;
+             height: auto;
+         }
+    
+         .card-form{
+             background-color: #ffffff;
+             border-radius: 0px 80px 80px 0px;
+             width: 80%;
+             height: 20vh;
+             opacity: 0.9;
+             position: relative;
+             top: -5vh;
+         }
+    
+         .login-text-box1{
+             width: 90%;
+             font-size: 20px;
+             box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
+         }
+    
+         .login-text-box2{
+             width: 90%;
+             font-size: 20px;
+             box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
+         }
+    
+         .login-btn{
+             top: 30px;
+             left: 83%;
+             width: 70px;
+             height: 70px;
+      }
+
+      .card-links{
         position: relative;
-        left: 27%;
-        top: -30vh;
+        top: -5vh;
+      }
+     }
+    
 
-    }
 
-    .card-header img {
-        width: 100%;
-        height: auto;
-    }
-
-    .card-form{
-        background-color: #d64343;
-        border-radius: 0px 80px 80px 0px;
-        width: 80%;
-        opacity: 0.9;
-    }
-
-    .login-text-box1{
-        width: 90%;
-        font-size: 30px;
-        box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
-    }
-
-    .login-text-box2{
-        width: 90%;
-        font-size: 30px;
-        box-shadow: 0px 19px 200px rgba(0, 0, 0, 0.09);
-    }
-}
 
