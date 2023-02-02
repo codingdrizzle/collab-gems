@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import gems from '../../asserts/images/gems.png';
+import { Input, Typography } from 'antd';
 import { BiUser } from 'react-icons/bi';
 import { RiLock2Line } from 'react-icons/ri';
 import { BiLogIn } from 'react-icons/bi';
+import gems from '../../asserts/images/gems.png';
 import './styles.css';
-import { Input, Typography } from 'antd';
 
 
 const LoginForm = () => {
