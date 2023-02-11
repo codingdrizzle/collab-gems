@@ -1,6 +1,6 @@
 .register-card{
     background-color: #ffff;
-    width: 100%;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     box-shadow:1px 1px 20px rgb(226, 226, 226);
     position:absolute;
     top: 40px;
+    left: 25%;
 }
 
 .register-header{
@@ -17,6 +18,11 @@
     justify-content: center;
 }
 
+.register-header .logo{
+    width: 100%;
+    height: auto;
+}
+
 .register-header .login-text{
     font-family: 'Inter';
     font-style: normal;
@@ -24,6 +30,8 @@
     font-size: 20px;
     line-height: 24px;
     color: #00115B;
+    position: relative;
+    left: 130%;
 }
 
 .register-header .register-text{
