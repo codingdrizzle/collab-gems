@@ -10,3 +10,19 @@
     top: 40px;
 }
 
+.register-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.register-header .login-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00115B;
+}
+
