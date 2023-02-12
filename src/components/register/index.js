@@ -36,9 +36,7 @@ const Registration = ()=>{
                   <Col className='coloms' span={24}>
                     <Input className='input-card' type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
                   </Col> 
-
-                <Button><BiCheck className='register-icon' size={30}/></Button>
-                                   
+                <Button><BiCheck className='register-icon' size={30}/></Button>                                                   
             </div>
         </div>
     );
