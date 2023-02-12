@@ -9,6 +9,8 @@
     position:absolute;
     top: 40px;
     left: 35%;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .register-header{
