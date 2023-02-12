@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 80%;
     height: auto;
     background-color: #ffffff;
     border-radius: 0px 75px 75px 0px;
@@ -74,7 +74,8 @@
     margin-right: 20px;
 }
 
-.coloms .input-card{
+.coloms .input-card
+{
     font-size: 16px;
     border: none !important;
     outline: hidden !important;
@@ -89,7 +90,7 @@
     border-radius: 200%;
     position: relative;
     top: -26vh;
-    left: 45%;
+    left: 50%;
     color: #ffff;
     background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
     z-index: 999;
