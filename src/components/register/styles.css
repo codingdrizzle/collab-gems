@@ -8,7 +8,7 @@
     box-shadow:1px 1px 20px rgb(226, 226, 226);
     position:absolute;
     top: 40px;
-    left: 28%;
+    left: 35%;
 }
 
 .register-header{
@@ -31,7 +31,7 @@
     line-height: 24px;
     color: #00115B;
     position: relative;
-    left: 120%;
+    left: 100%;
 }
 
 .register-header .register-text{
@@ -51,8 +51,6 @@
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    box-shadow: 1px 1px 20px (#d4c7c7);
-    border-radius: 0px 75px 75px 0px;
     gap: 5px;
     position: relative;
     right: 12%;
@@ -60,4 +58,10 @@
 
 .register-form .coloms {
     width: 300px;
+    box-shadow: 1px 1px 20px (#d4c7c7);
+    border-radius: 0px 75px 75px 0px;
+}
+
+.icons{
+    color:#dddd;
 }
