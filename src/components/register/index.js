@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from 'antd';
+import { Col} from 'antd';
 import {CgUserList} from 'react-icons/cg';
 import {TfiEmail} from 'react-icons/tfi';
 import {CiUser,CiLock} from 'react-icons/ci';
@@ -16,7 +17,12 @@ const Registration = ()=>{
                   <Title className="register-text" level={1}>Register</Title>
             </div>
             <div className="register-form">
-                  
+            
+                  <Col span={6}>24</Col>
+                  <Col span={6}>24</Col>
+                  <Col span={6}>24</Col>
+                  <Col span={6}>24</Col>
+            
             </div>
         </div>
     )
