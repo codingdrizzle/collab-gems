@@ -31,12 +31,15 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 24px;
-    color: #00115B;
+   
     position: relative;
     left: 100%;
     text-decoration: none;
 }
 
+.register-header .login-text{
+    color: #00115B;
+}
 
 .register-header .register-text{
     font-family: 'Inter';
