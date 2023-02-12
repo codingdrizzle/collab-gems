@@ -18,26 +18,27 @@ const Registration = ()=>{
                   <Title className='register-text' level={1}>Register</Title>
             </div>
             <div className='register-form'> 
-                  <div className='colom-cards'></div>           
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='text' placeholder='First name' size='large' prefix={<CgUserList size={25} className='icons'/>} required/> 
-                  </Col>
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='text' placeholder='Last name' size='large' prefix={<CgUserList size={25} className='icons'/>} required/> 
-                  </Col>
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='text' placeholder='Email address' size='large' prefix={<TfiEmail size={25} className='icons'/>} required/> 
-                  </Col>
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='text' placeholder='Username' size='large' prefix={<CiUser size={25} className='icons'/>} required/>
-                  </Col>      
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='password' placeholder='Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
-                  </Col> 
-                  <Col className='coloms' span={24}>
-                    <Input className='input-card' type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
-                  </Col> 
-                <Button><BiCheck className='register-icon' size={30}/></Button>                                                   
+                  <div className='colom-cards'>
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='text' placeholder='First name' size='large' prefix={<CgUserList size={25} className='icons'/>} required/> 
+                          </Col>
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='text' placeholder='Last name' size='large' prefix={<CgUserList size={25} className='icons'/>} required/> 
+                          </Col>
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='text' placeholder='Email address' size='large' prefix={<TfiEmail size={25} className='icons'/>} required/> 
+                          </Col>
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='text' placeholder='Username' size='large' prefix={<CiUser size={25} className='icons'/>} required/>
+                          </Col>      
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='password' placeholder='Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
+                          </Col> 
+                          <Col className='coloms' span={24}>
+                            <Input className='input-card' type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
+                          </Col> 
+                        <Button><BiCheck className='register-icon' size={30}/></Button>  
+                  </div>                                                           
             </div>
         </div>
     );
