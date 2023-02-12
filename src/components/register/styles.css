@@ -1,0 +1,102 @@
+.register-card{
+    background-color: #ffff;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:1px 1px 20px rgb(226, 226, 226);
+    position:absolute;
+    top: 20px;
+    left: 35%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.register-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.register-header .logo{
+    width: 100%;
+    height: auto;
+}
+
+.register-header .login-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+   
+    position: relative;
+    left: 100%;
+    text-decoration: none;
+}
+
+.register-header .login-text{
+    color: #00115B;
+}
+
+.register-header .register-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+    color: #00115B;
+    position: relative;
+    right:30%;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 0px 75px 75px 0px;
+    gap: 5px;
+    position: relative;
+    right: 12%;
+    padding-top: 10px;
+    opacity: 0.8;
+    box-shadow: 1px 0px 1px 1px rgb(226, 226, 226);
+}
+
+.register-form .coloms {
+    width: 300px;
+
+}
+
+.icons{
+    color:#dddd;
+    margin-right: 20px;
+}
+
+.coloms .input-card
+{
+    font-size: 16px;
+    border: none !important;
+    outline: hidden !important;
+    color: #91A2B8;
+}
+
+.register-form Button,
+.register-form Button:hover,
+.register-form Button:focus{
+    width: 20%;
+    height: 10vh;
+    border-radius: 200%;
+    position: relative;
+    top: -26vh;
+    left: 50%;
+    color: #ffff;
+    background: linear-gradient(90deg, #1BCACD 0%, #24E9A3 100%);
+    z-index: 999;
+}

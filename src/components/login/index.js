@@ -1,17 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import gems from '../../asserts/images/gems.png';
-import { BiUser } from 'react-icons/bi';
-import { RiLock2Line } from 'react-icons/ri';
-import { BiLogIn } from 'react-icons/bi';
-import './styles.css';
-import { Input, Typography } from 'antd';
-
+import { Link } from 'react-router-dom'
+import gems from "../../asserts/images/gems.png";
+import { BiUser } from "react-icons/bi";
+import { RiLock2Line } from "react-icons/ri";
+import { BiLogIn } from "react-icons/bi";
+import "./styles.css"
+import { Input, Typography } from "antd";
 
 const LoginForm = () => {
 
-	const { Title } = Typography;
-
+    const { Title } = Typography;
 
 	return (
 		<div className="login-card">
@@ -32,10 +30,9 @@ const LoginForm = () => {
 				</Link>
 				<h3>Don&apos;t have an account?<Link to={'/register'}>Register</Link></h3>
 			</div>
-
-
 		</div>
 	);
 };
 
 export default LoginForm;
+   
