@@ -4,6 +4,7 @@ import {CgUserList} from 'react-icons/cg';
 import {TfiEmail} from 'react-icons/tfi';
 import {BiCheck} from 'react-icons/bi';                                                                                                         
 import {CiUser,CiLock } from 'react-icons/ci';
+import { Link } from 'react-router-dom';
 import img from '../../asserts/images/gems.png';
 import './styles.css';
 
@@ -13,7 +14,7 @@ const Registration = ()=>{
         <div className='register-card'>
             <div className='register-header'>
                   <img className='logo' src={img} alt=''/>
-                  <Title className='login-text' level={3}>Login</Title>
+                  <Link to={'/login'} className='login-link'><Title level={3} className='login-text'>Login</Title> </Link>
                   <Title className='register-text' level={1}>Register</Title>
             </div>
             <div className='register-form'>            
