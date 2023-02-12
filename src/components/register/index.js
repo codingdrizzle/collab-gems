@@ -17,7 +17,8 @@ const Registration = ()=>{
                   <Link to={'/login'} className='login-link'><Title level={3} className='login-text'>Login</Title> </Link>
                   <Title className='register-text' level={1}>Register</Title>
             </div>
-            <div className='register-form'>            
+            <div className='register-form'> 
+                  <div className='colom-cards'></div>           
                   <Col className='coloms' span={24}>
                     <Input className='input-card' type='text' placeholder='First name' size='large' prefix={<CgUserList size={25} className='icons'/>} required/> 
                   </Col>
