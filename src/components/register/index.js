@@ -18,22 +18,22 @@ const Registration = ()=>{
             </div>
             <div className='register-form'>            
                   <Col className='coloms' span={24}>
-                    <Input type='text' placeholder='First name' size='large' prefix={<CgUserList/>} required/> 
+                    <Input className='input-card' type='text' placeholder='First name' size='large' prefix={<CgUserList/>} required/> 
                   </Col>
                   <Col className='coloms' span={24}>
-                    <Input type='text' placeholder='Last name' size='large' prefix={<CgUserList/>} required/> 
+                    <Input className='input-card' type='text' placeholder='Last name' size='large' prefix={<CgUserList/>} required/> 
                   </Col>
                   <Col className='coloms' span={24}>
-                    <Input type='text' placeholder='Email address' size='large' prefix={<TfiEmail/>} required/> 
+                    <Input className='input-card' type='text' placeholder='Email address' size='large' prefix={<TfiEmail/>} required/> 
                   </Col>
                   <Col className='coloms' span={24}>
-                    <Input type='text' placeholder='Username' size='large' prefix={<CiUser/>} required/>
+                    <Input className='input-card' type='text' placeholder='Username' size='large' prefix={<CiUser/>} required/>
                   </Col>      
                   <Col className='coloms' span={24}>
-                    <Input type='password' placeholder='Password' size='large' prefix={<CiLock/>} required/> 
+                    <Input className='input-card' type='password' placeholder='Password' size='large' prefix={<CiLock/>} required/> 
                   </Col> 
                   <Col className='coloms' span={24}>
-                    <Input type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock/>} required/> 
+                    <Input className='input-card' type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock/>} required/> 
                   </Col> 
 
                   <BiCheck size={30}/> 
