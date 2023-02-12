@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography,Col,Input } from 'antd';                                                                                                              
+import { Typography,Col,Input,Button,} from 'antd';                                                                                                              
 import {CgUserList} from 'react-icons/cg';
 import {TfiEmail} from 'react-icons/tfi';
 import {BiCheck} from 'react-icons/bi';                                                                                                         
@@ -36,7 +36,7 @@ const Registration = ()=>{
                     <Input className='input-card' type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock size={25} className='icons'/>} required/> 
                   </Col> 
 
-                  <BiCheck size={30}/> 
+                <Button><BiCheck className='register-icon' size={30}/></Button>
                                    
             </div>
         </div>
