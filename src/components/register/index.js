@@ -1,6 +1,9 @@
-import React from "react";
-import { Typography } from "antd";
-import img from "../../asserts/images/gems.png";
+import React from 'react';
+import { Typography } from 'antd';
+import {CgUserList} from 'react-icons/cg';
+import {TfiEmail} from 'react-icons/tfi';
+import {CiUser,CiLock} from 'react-icons/ci';
+import img from '../../asserts/images/gems.png';
 import './styles.css';
 
 const Registration = ()=>{
@@ -13,7 +16,7 @@ const Registration = ()=>{
                   <Title className="register-text" level={1}>Register</Title>
             </div>
             <div className="register-form">
-
+                  
             </div>
         </div>
     )
