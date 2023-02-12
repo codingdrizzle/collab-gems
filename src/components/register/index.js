@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography,Col,Input } from 'antd';                                                                                                              
 import {CgUserList} from 'react-icons/cg';
 import {TfiEmail} from 'react-icons/tfi';
+import {BiCheck} from 'react-icons/bi';                                                                                                         
 import {CiUser,CiLock } from 'react-icons/ci';
 import img from '../../asserts/images/gems.png';
 import './styles.css';
@@ -33,7 +34,10 @@ const Registration = ()=>{
                   </Col> 
                   <Col span={24}>
                     <Input type='password' placeholder='Re-enter Password' size='large' prefix={<CiLock/>} required/> 
-                  </Col>                  
+                  </Col> 
+
+                  <BiCheck size={30}/> 
+                                   
             </div>
         </div>
     );

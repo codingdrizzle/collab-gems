@@ -41,4 +41,6 @@
     font-size: 25px;
     line-height: 30px;
     color: #00115B;
+    position: relative;
+    right:40%;
 }
