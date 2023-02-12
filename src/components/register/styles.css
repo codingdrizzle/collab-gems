@@ -1,6 +1,6 @@
 .register-card{
     background-color: #ffff;
-    width: 50%;
+    width: 35%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     box-shadow:1px 1px 20px rgb(226, 226, 226);
     position:absolute;
     top: 40px;
-    left: 25%;
+    left: 28%;
 }
 
 .register-header{
@@ -31,7 +31,7 @@
     line-height: 24px;
     color: #00115B;
     position: relative;
-    left: 130%;
+    left: 120%;
 }
 
 .register-header .register-text{
