@@ -150,4 +150,11 @@
         right: 5%;
         top: -30px;        
     }
+     
+    
+    .register-form .coloms{
+        width: 229px;
+        height: 24px;
+        margin-top: 1rem;
+    }
 }
