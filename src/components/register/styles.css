@@ -136,7 +136,7 @@
         color: #00115B;
         position: relative;
         right:0%;
-        top: -30px;
+        top: -10px;
     }
 
     .register-form{
@@ -148,7 +148,7 @@
         background-color: #ffff;
         position: relative;
         right: -5%;
-        top: -30px; 
+        top: -0px; 
         opacity: 1;       
     }
      
@@ -194,14 +194,14 @@
         font-size: 18px;
         line-height: 22px;
         position: relative;
-        top: -30px;
+        top: 3px;
         left: -7%;
     }
 
     .register-header .login-text{
         position: relative;
         left:-230%;
-        bottom: -293px;
+        bottom: -323px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
