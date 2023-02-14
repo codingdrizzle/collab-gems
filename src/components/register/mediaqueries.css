@@ -1,4 +1,98 @@
-@media (max-width:320px){
+
+@media screen and (max-width:365px){
+    .register-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: -2%;
+        box-shadow: none;
+    }
+
+    .register-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -35px;
+    }
+    
+    .register-header .register-text{
+        position: relative;
+        right:-2%;
+        top: -40px;
+    }
+
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffff;
+        position: relative;
+        right: -3%;
+        top:-30px;
+        opacity: 1;
+    }
+
+    .colom-cards{
+        margin-top: -2.9rem;
+        margin-left: -1rem;
+    }
+    .register-form .coloms{
+        width: 229px;
+        height: 24px;
+        margin-top: 1.2rem;
+        opacity: 1;
+    }
+
+    .coloms .input-card{
+       font-size: 18px;
+       color: #888c91;
+    }
+
+    .icons{
+        color: #888c91;
+    }
+
+    .register-form Button,
+    .register-form Button:hover,
+    .register-form Button:focus{
+        width: 25%;
+        height: 25%;
+        position: relative;
+        left: 100%;
+        top: -150px;
+    }
+
+    #question{
+        color:#646462d8;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 22px;
+        position: relative;
+        top: 3px;
+        left: -7%;
+    }
+
+
+    .register-header .login-text{
+        position: relative;
+        left:-150%;
+        bottom: -349px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #24E9A3;        
+    }
+}
+
+@media  screen and (max-width:326px){
     .register-card{
         width: 100%;
         height: auto;
@@ -16,7 +110,7 @@
         width: 60%;
         height: auto;   
         position: relative;
-        bottom: -25px;       
+        bottom: -35px;       
     }
 
     .register-header .register-text{
@@ -28,7 +122,7 @@
         color: #00115B;
         position: relative;
         right:0%;
-        top: -10px;
+        top: 0px;
     }
 
     .register-form{
@@ -37,16 +131,16 @@
         align-items: center;
         width: 259px;
         height: 250px;        
-        background-color: #ffff;
+        background-color: #ffffff;
         position: relative;
         right: -5%;
-        top: -0px; 
+        top: -3px; 
         opacity: 1;       
     }
      
     .register-form .colom-cards{
         position: relative;
-        top: -1%;
+        top: 25px;
         left: -4%;
     }
     
@@ -86,14 +180,14 @@
         font-size: 18px;
         line-height: 22px;
         position: relative;
-        top: 3px;
+        top: 12px;
         left: -7%;
     }
 
     .register-header .login-text{
         position: relative;
         left:-230%;
-        bottom: -323px;
+        bottom: -333px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -102,74 +196,4 @@
         text-decoration-line: underline;
         color: #24E9A3;        
     }
-}
-
-@media (max-width:360px){
-    .register-card{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        left: -2%;
-        box-shadow: none;
-    }
-
-    .register-header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: -35px;
-    }
-    
-    .register-header .register-text{
-        position: relative;
-        right:-2%;
-        top: -40px;
-    }
-
-    .register-form{
-        display: flex;
-        flex-direction: column;
-        background-color: #00115B;
-        position: relative;
-        right: -3%;
-        top:-30px;
-        opacity: 1;
-    }
-
-    .colom-cards{
-        margin-top: -2.9rem;
-        margin-left: -1rem;
-    }
-    .register-form .coloms{
-        width: 229px;
-        height: 24px;
-        margin-top: 1.2rem;
-        opacity: 1;
-    }
-
-    .coloms .input-card{
-       font-size: 18px;
-       color: #888c91;
-    }
-
-    .icons{
-        color: #888c91;
-    }
-
-    .register-form Button,
-    .register-form Button:hover,
-    .register-form Button:focus{
-        width: 25%;
-        height: 25%;
-        position: relative;
-        left: 90%;
-        top: -150px;
-    }
-
-
-
 }
