@@ -124,4 +124,11 @@
         margin-top: -35px;
     }
     
+    .register-header .register-text{
+        position: relative;
+        right:-2%;
+        top: -40px;
+    }
+
+
 }
