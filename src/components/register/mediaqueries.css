@@ -141,7 +141,7 @@
     }
 
     .colom-cards{
-        margin-top: -1.8rem;
+        margin-top: -2.9rem;
         margin-left: -1rem;
     }
     .register-form .coloms{
@@ -155,6 +155,21 @@
        font-size: 18px;
        color: #888c91;
     }
+
+    .icons{
+        color: #888c91;
+    }
+
+    .register-form Button,
+    .register-form Button:hover,
+    .register-form Button:focus{
+        width: 25%;
+        height: 25%;
+        position: relative;
+        left: 90%;
+        top: -150px;
+    }
+
 
 
 }
