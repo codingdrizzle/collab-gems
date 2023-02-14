@@ -151,5 +151,10 @@
         opacity: 1;
     }
 
+    .coloms .input-card{
+       font-size: 18px;
+       color: #888c91;
+    }
+
 
 }
