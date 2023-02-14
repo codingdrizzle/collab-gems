@@ -130,5 +130,14 @@
         top: -40px;
     }
 
+    .register-form{
+        display: flex;
+        flex-direction: column;
+        background-color: #00115B;
+        position: relative;
+        right: -3%;
+        top:-30px;
+        opacity: 1;
+    }
 
 }
