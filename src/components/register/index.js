@@ -7,6 +7,7 @@ import {CiUser,CiLock } from 'react-icons/ci';
 import { Link } from 'react-router-dom';
 import img from '../../asserts/images/gems.png';
 import './styles.css';
+import './mediaqueries.css';
 
 const Registration = ()=>{
     const {Title} = Typography;
