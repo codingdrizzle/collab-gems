@@ -104,6 +104,17 @@
     }
 }
 
-@media (min-width:330px){
+@media (max-width:360px){
+    .register-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: -2%;
+        box-shadow: none;
+    }
+
     
 }
