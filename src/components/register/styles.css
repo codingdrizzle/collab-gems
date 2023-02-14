@@ -145,7 +145,7 @@
         align-items: center;
         width: 259px;
         height: 250px;        
-        background-color: #00115B;
+        background-color: #ffff;
         position: relative;
         right: -5%;
         top: -30px; 
@@ -176,11 +176,38 @@
         margin-right: 20px;
     }
 
-    .register-form Button{
+    .register-form Button,
+    .register-form Button:hover,
+    .register-form Button:focus{
         position: relative;
         top: -46%;
         left: 85%;
         width:30%;
         height: 20%;
+    }
+
+    #question{
+        color:#646462d8;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        position: relative;
+        top: -30px;
+        left: -7%;
+    }
+
+    .register-header .login-text{
+        position: relative;
+        left:-230%;
+        bottom: -293px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #24E9A3;        
     }
 }

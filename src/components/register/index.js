@@ -40,7 +40,7 @@ const Registration = ()=>{
                         <Button><BiCheck className='register-icon' size={30}/></Button>  
                   </div>                                                           
             </div>
-
+            <Title id='question' level={5}>Have an account already?</Title>
         </div>
     );
 };
